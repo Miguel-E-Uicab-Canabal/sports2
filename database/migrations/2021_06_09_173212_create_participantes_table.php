@@ -20,7 +20,6 @@ class CreateParticipantesTable extends Migration
             $table->string('apellidom');
             $table->integer('edad');
             $table->foreignId('torneo_id')->constrained('torneos')->onDelete('cascade');
-            $table->timestamps();
         });
     }
 

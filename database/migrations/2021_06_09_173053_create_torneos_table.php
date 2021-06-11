@@ -19,7 +19,6 @@ class CreateTorneosTable extends Migration
             $table->string('deporte');
             $table->date('fecha');
             $table->time('hora');
-            $table->timestamps();
         });
     }
 
